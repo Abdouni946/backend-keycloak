@@ -16,4 +16,5 @@ public class Order {
     private OrderState state;
     @OneToMany(mappedBy = "order")
     private List<ProductItem> productItems;
+    private List<ProductItem> productItems2;
 }
